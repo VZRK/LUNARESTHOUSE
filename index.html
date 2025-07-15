@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luna Rest House</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Luna Rest House</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#about">Nosotros</a></li>
+        <li><a href="#rooms">Habitaciones</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h1>Bienvenido a Luna Rest House</h1>
+      <p>Tu retiro de ensueño bajo la luz de la luna.</p>
+      <a href="#rooms" class="btn">Descubre nuestras habitaciones</a>
+    </section>
+
+    <section id="about">
+      <h2>Sobre Nosotros</h2>
+      <p>En Luna Rest House ofrecemos descanso y confort en un entorno natural.</p>
+    </section>
+
+    <section id="rooms">
+      <h2>Nuestras Habitaciones</h2>
+      <div class="room-list">
+        <article class="room">
+          <h3>Suite Luna Llena</h3>
+          <p>Vista panorámica y jacuzzi privado.</p>
+        </article>
+        <article class="room">
+          <h3>Habitación Estándar</h3>
+          <p>Comodidad y calidez.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contacto</h2>
+      <form action="#" method="post">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Correo:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Luna Rest House. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
